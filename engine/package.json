@@ -1,0 +1,17 @@
+{
+  "name": "@app/engine-composicao",
+  "version": "1.0.0",
+  "description": "Motor de cálculo (composição corporal, metas, dieta, treino e check-in) com fontes científicas por número.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "engines": { "node": ">=22.18" },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^6.0.0"
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "engineVersion": "1.0.0",
+  "createdAt": "2026-10-13",
+  "screening": {
+    "status": "ok",
+    "allowCalorieDeficit": true,
+    "allowNumericDiet": true,
+    "allowTraining": true,
+    "flags": []
+  },
+  "body": {
+    "bodyFatPct": 24.1,
+    "bodyFatRange": [
+      20.9,
+      27.2
+    ],
+    "methodsUsed": [
+      "photo_ai",
+      "bmi_equation"
+    ],
+    "fatMassKg": 21.7,
+    "fatFreeMassKg": 68.3,
+    "bmi": 27.8,
+    "aceCategory": "acceptable"
+  },
+  "disclaimer": "Este plano é uma orientação educativa baseada em diretrizes científicas e não substitui consulta com médico, nutricionista ou profissional de educação física. Estimativas de gordura por foto e por fita métrica têm margem de erro.",
+  "energy": {
+    "bmrKcal": 1880,
+    "tdeeKcal": 2914
+  },
+  "goal": {
+    "status": "ok",
+    "direction": "lose",
+    "targetWeightKg": 81.3,
+    "requiredRatePctPerWeek": 0.51,
+    "plannedRatePctPerWeek": 0.51,
+    "minWeeks": 14,
+    "recommendedWeeks": 14,
+    "messages": [
+      "Para chegar a 16% de gordura mantendo sua massa magra (68,3 kg), o peso-alvo estimado é 81,3 kg.",
+      "Com seu gasto estimado (2.914 kcal/dia), o déficit seguro permite perder até 0,73% do peso por semana."
+    ],
+    "flags": [],
+    "sources": [
+      "HELMS_2014",
+      "HELMS_2014",
+      "ACE_BODY_FAT",
+      "PREMISSA_PROJETO",
+      "NHLBI_LCD",
+      "NHLBI_LCD"
+    ]
+  },
+  "nutrition": {
+    "kcal": {
+      "value": 2410,
+      "sources": [
+        "MIFFLIN_1990",
+        "HALL_2011",
+        "HELMS_2014",
+        "NHLBI_LCD"
+      ]
+    },
+    "proteinG": {
+      "value": 157,
+      "sources": [
+        "HELMS_2014",
+        "ISSN_PROTEIN_2017"
+      ]
+    },
+    "fatG": {
+      "value": 67,
+      "sources": [
+        "HELMS_2014",
+        "PREMISSA_PROJETO"
+      ]
+    },
+    "carbsG": {
+      "value": 295,
+      "sources": [
+        "PREMISSA_PROJETO"
+      ],
+      "note": "Carboidrato = calorias restantes depois de proteína e gordura."
+    },
+    "mealsPerDay": 4,
+    "proteinPerMealG": {
+      "value": 39,
+      "sources": [
+        "ISSN_PROTEIN_2017"
+      ]
+    },
+    "foodGuidance": {
+      "value": [
+        "Monte a base das refeições com alimentos in natura ou minimamente processados (arroz, feijão, ovos, carnes, frutas, legumes, verduras, leite).",
+        "Use alimentos processados (queijos, pães, conservas) em pequenas quantidades, como parte de refeições.",
+        "Evite ultraprocessados (refrigerantes, biscoitos recheados, salgadinhos, refeições prontas congeladas)."
+      ],
+      "sources": [
+        "GUIA_ALIMENTAR_2014"
+      ]
+    },
+    "flags": []
+  },
+  "training": {
+    "sessions": [
+      {
+        "name": "Superior A",
+        "exercises": [
+          {
+            "name": "Supino reto com barra",
+            "muscle": "chest",
+            "kind": "compound",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Supino inclinado com halteres",
+            "muscle": "chest",
+            "kind": "compound",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Puxada na polia (pegada aberta)",
+            "muscle": "back",
+            "kind": "compound",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Remada baixa na polia",
+            "muscle": "back",
+            "kind": "compound",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Desenvolvimento com halteres",
+            "muscle": "shoulders",
+            "kind": "compound",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Elevação lateral com halteres",
+            "muscle": "shoulders",
+            "kind": "isolation",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                10,
+                15
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Rosca direta",
+            "muscle": "biceps",
+            "kind": "isolation",
+            "sets": 1,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                10,
+                15
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          }
+        ],
+        "estimatedMinutes": 63
+      },
+      {
+        "name": "Inferior A",
+        "exercises": [
+          {
+            "name": "Agachamento livre",
+            "muscle": "quads",
+            "kind": "compound",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Leg press 45°",
+            "muscle": "quads",
+            "kind": "compound",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Levantamento terra romeno",
+            "muscle": "hamstrings_glutes",
+            "kind": "compound",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Mesa flexora",
+            "muscle": "hamstrings_glutes",
+            "kind": "isolation",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                10,
+                15
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Panturrilha em pé",
+            "muscle": "calves",
+            "kind": "isolation",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                10,
+                15
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Prancha",
+            "muscle": "core",
+            "kind": "isolation",
+            "sets": 2,
+            "unit": "seconds",
+            "prescription": {
+              "repRange": [
+                20,
+                60
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Sustente com boa postura; quando passar de 60 s, use uma variação mais difícil."
+            }
+          }
+        ],
+        "estimatedMinutes": 56
+      },
+      {
+        "name": "Superior B",
+        "exercises": [
+          {
+            "name": "Supino inclinado com halteres",
+            "muscle": "chest",
+            "kind": "compound",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Supino reto com barra",
+            "muscle": "chest",
+            "kind": "compound",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Remada baixa na polia",
+            "muscle": "back",
+            "kind": "compound",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Puxada na polia (pegada aberta)",
+            "muscle": "back",
+            "kind": "compound",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Elevação lateral com halteres",
+            "muscle": "shoulders",
+            "kind": "isolation",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                10,
+                15
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Desenvolvimento com halteres",
+            "muscle": "shoulders",
+            "kind": "compound",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          }
+        ],
+        "estimatedMinutes": 60
+      },
+      {
+        "name": "Inferior B",
+        "exercises": [
+          {
+            "name": "Leg press 45°",
+            "muscle": "quads",
+            "kind": "compound",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Agachamento livre",
+            "muscle": "quads",
+            "kind": "compound",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Mesa flexora",
+            "muscle": "hamstrings_glutes",
+            "kind": "isolation",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                10,
+                15
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Levantamento terra romeno",
+            "muscle": "hamstrings_glutes",
+            "kind": "compound",
+            "sets": 2,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                6,
+                10
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                120,
+                180
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Panturrilha em pé",
+            "muscle": "calves",
+            "kind": "isolation",
+            "sets": 3,
+            "unit": "reps",
+            "prescription": {
+              "repRange": [
+                10,
+                15
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Escolha uma carga que deixe só as repetições de reserva indicadas (RIR) ao final da série."
+            }
+          },
+          {
+            "name": "Prancha",
+            "muscle": "core",
+            "kind": "isolation",
+            "sets": 2,
+            "unit": "seconds",
+            "prescription": {
+              "repRange": [
+                20,
+                60
+              ],
+              "rir": [
+                1,
+                2
+              ],
+              "restSeconds": [
+                60,
+                120
+              ],
+              "loadNote": "Sustente com boa postura; quando passar de 60 s, use uma variação mais difícil."
+            }
+          }
+        ],
+        "estimatedMinutes": 55
+      }
+    ],
+    "weeklySetsByMuscle": {
+      "chest": 10,
+      "back": 10,
+      "quads": 10,
+      "hamstrings_glutes": 15,
+      "shoulders": 15,
+      "biceps": 6,
+      "triceps": 7.5,
+      "calves": 6,
+      "core": 4
+    },
+    "frequencyByMuscle": {
+      "chest": 2,
+      "back": 2,
+      "quads": 2,
+      "hamstrings_glutes": 2,
+      "shoulders": 2,
+      "biceps": 2,
+      "triceps": 2,
+      "calves": 2,
+      "core": 2
+    },
+    "progression": {
+      "value": [
+        "Progressão dupla: mantenha a carga até completar o topo da faixa de repetições em todas as séries com o RIR indicado; então aumente a carga ~2,5–5% e volte ao início da faixa.",
+        "Se o desempenho cair por 2 sessões seguidas, reduza as séries em ~1/3 por uma semana.",
+        "A cada 4 semanas, compare cargas e repetições do exercício principal de cada grupo."
+      ],
+      "sources": [
+        "ACSM_RT_2026",
+        "PREMISSA_PROJETO"
+      ]
+    },
+    "aerobic": {
+      "value": {
+        "startMinutesPerWeek": 150,
+        "targetMinutesPerWeek": 225,
+        "sessions": 5,
+        "progression": "Comece com 150 min/semana e some ~25 min por semana até 225 min.",
+        "intensity": "Moderada: dá para conversar, mas não cantar (ou 75–150 min/semana em intensidade vigorosa)."
+      },
+      "sources": [
+        "WHO_PA_2020",
+        "DONNELLY_2009"
+      ]
+    },
+    "sources": [
+      "PELLAND_VOLUME",
+      "ACSM_RT_2026",
+      "WHO_PA_2020",
+      "PREMISSA_PROJETO",
+      "ACSM_RT_2026",
+      "WHO_PA_2020",
+      "SCHOENFELD_FREQ_2016"
+    ],
+    "flags": []
+  },
+  "flags": [
+    {
+      "code": "BF_TAPE_SUGGESTED",
+      "severity": "info",
+      "message": "Opcional: medir pescoço e cintura (e quadril, para mulheres) com fita deixa a estimativa mais precisa.",
+      "sources": [
+        "HODGDON_BECKETT_1984"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "MAJMUDAR_2022",
+      "kind": "estudo",
+      "citation": "Majmudar MD, et al. Smartphone camera based assessment of adiposity: a validation study. NPJ Digit Med. 2022;5:79.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9243018/"
+    },
+    {
+      "id": "DEURENBERG_1991",
+      "kind": "estudo",
+      "citation": "Deurenberg P, Weststrate JA, Seidell JC. Body mass index as a measure of body fatness: age- and sex-specific prediction formulas. Br J Nutr. 1991;65(2):105-114.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2043597/"
+    },
+    {
+      "id": "PREMISSA_PROJETO",
+      "kind": "premissa",
+      "citation": "Premissa do projeto (não derivada diretamente de fonte). Valor ajustável em engine/src/config.ts; deve ser revisado por nutricionista/profissional de educação física."
+    },
+    {
+      "id": "ACE_BODY_FAT",
+      "kind": "diretriz",
+      "citation": "American Council on Exercise (ACE). Categorias de % de gordura: homens — essencial <6, atleta 6–13, fitness 14–17, aceitável 18–24, obesidade ≥25; mulheres — essencial <14, atleta 14–20, fitness 21–24, aceitável 25–31, obesidade ≥32."
+    },
+    {
+      "id": "WHO_BMI",
+      "kind": "diretriz",
+      "citation": "World Health Organization. Classificação do IMC em adultos (baixo peso < 18,5 kg/m²)."
+    },
+    {
+      "id": "MIFFLIN_1990",
+      "kind": "estudo",
+      "citation": "Mifflin MD, St Jeor ST, et al. A new predictive equation for resting energy expenditure in healthy individuals. Am J Clin Nutr. 1990;51(2):241-247.",
+      "url": "https://doi.org/10.1093/ajcn/51.2.241"
+    },
+    {
+      "id": "FRANKENFIELD_2005",
+      "kind": "estudo",
+      "citation": "Frankenfield D, Roth-Yousey L, Compher C. Comparison of predictive equations for resting metabolic rate in healthy nonobese and obese adults: a systematic review. J Am Diet Assoc. 2005;105(5):775-789.",
+      "url": "https://doi.org/10.1016/j.jada.2005.02.005"
+    },
+    {
+      "id": "HELMS_2014",
+      "kind": "estudo",
+      "citation": "Helms ER, Aragon AA, Fitschen PJ. Evidence-based recommendations for natural bodybuilding contest preparation: nutrition and supplementation. J Int Soc Sports Nutr. 2014;11:20.",
+      "url": "https://doi.org/10.1186/1550-2783-11-20"
+    },
+    {
+      "id": "NHLBI_LCD",
+      "kind": "diretriz",
+      "citation": "NHLBI/NIH. Dieta de baixa caloria para perda de peso: redução de 500–1.000 kcal/dia; planos típicos de 1.200–1.500 kcal (mulheres) e 1.500–1.800 kcal (homens).",
+      "url": "https://internet-prod.nhlbi.nih.gov/health/educational/wecan/portion/documents/CORESET4.pdf"
+    },
+    {
+      "id": "HALL_2011",
+      "kind": "estudo",
+      "citation": "Hall KD, et al. Quantification of the effect of energy imbalance on bodyweight. Lancet. 2011;378(9793):826-837.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3880593/"
+    },
+    {
+      "id": "ISSN_PROTEIN_2017",
+      "kind": "diretriz",
+      "citation": "Jäger R, et al. International Society of Sports Nutrition Position Stand: protein and exercise. J Int Soc Sports Nutr. 2017;14:20.",
+      "url": "https://doi.org/10.1186/s12970-017-0177-8"
+    },
+    {
+      "id": "GUIA_ALIMENTAR_2014",
+      "kind": "diretriz",
+      "citation": "Ministério da Saúde. Guia Alimentar para a População Brasileira. 2ª ed. Brasília; 2014."
+    },
+    {
+      "id": "PELLAND_VOLUME",
+      "kind": "estudo",
+      "citation": "Pelland JC, et al. The Resistance Training Dose Response: Meta-Regressions Exploring the Effects of Weekly Volume and Frequency on Muscle Hypertrophy and Strength Gain. Sports Medicine (preprint SportRxiv 2024).",
+      "url": "https://sportrxiv.org/index.php/server/preprint/view/460"
+    },
+    {
+      "id": "ACSM_RT_2026",
+      "kind": "diretriz",
+      "citation": "American College of Sports Medicine. Position Stand: Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews. Med Sci Sports Exerc. 2026.",
+      "url": "https://acsm.org/resistance-training-guidelines-update-2026/"
+    },
+    {
+      "id": "WHO_PA_2020",
+      "kind": "diretriz",
+      "citation": "World Health Organization. WHO guidelines on physical activity and sedentary behaviour. Geneva: WHO; 2020.",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK566048/"
+    },
+    {
+      "id": "SCHOENFELD_FREQ_2016",
+      "kind": "estudo",
+      "citation": "Schoenfeld BJ, Ogborn D, Krieger JW. Effects of Resistance Training Frequency on Measures of Muscle Hypertrophy: A Systematic Review and Meta-Analysis. Sports Med. 2016;46(11):1689-1697.",
+      "url": "https://doi.org/10.1007/s40279-016-0543-8"
+    },
+    {
+      "id": "DONNELLY_2009",
+      "kind": "diretriz",
+      "citation": "Donnelly JE, et al. ACSM Position Stand. Appropriate physical activity intervention strategies for weight loss and prevention of weight regain for adults. Med Sci Sports Exerc. 2009;41(2):459-471.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19127177/"
+    }
+  ]
+}
