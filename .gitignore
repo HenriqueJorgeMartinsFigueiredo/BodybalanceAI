@@ -1,0 +1,97 @@
+# ─────────────────────────────────────────────
+# Segredos — NUNCA commitar
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+.secret.local
+.runtimeconfig.json
+*service-account*.json
+*serviceAccount*.json
+*-adminsdk-*.json
+*.pem
+*.p8
+*.p12
+*.key
+*.jks
+*.keystore
+key.properties
+
+# ─────────────────────────────────────────────
+# Node / TypeScript
+# ─────────────────────────────────────────────
+node_modules/
+dist/
+# saída do tsc (não use "lib/" genérico: app/lib/ é código-fonte do Flutter)
+functions/lib/
+engine/lib/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+coverage/
+
+# ─────────────────────────────────────────────
+# Firebase
+# ─────────────────────────────────────────────
+.firebase/
+firebase-debug.log*
+firebase-debug.*.log*
+firestore-debug.log*
+database-debug.log*
+pubsub-debug.log*
+ui-debug.log*
+storage-debug.log*
+emulator-data/
+.emulator-data/
+firebase-export-*/
+functions/engine-dist/
+
+# ─────────────────────────────────────────────
+# Flutter / Dart
+# ─────────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.g.dart.bak
+app/.metadata.bak
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.iml
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/GeneratedPluginRegistrant.*
+xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+
+# ─────────────────────────────────────────────
+# IDE / SO
+# ─────────────────────────────────────────────
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
